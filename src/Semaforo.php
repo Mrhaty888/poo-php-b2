@@ -5,8 +5,8 @@ namespace App;
 use InvalidArgumentException;
 
 class Semaforo{
-    public string $local;
     public function __construct(
+        public string $local,
         private string $cor="vermelho",
         private int $ciclosCompletos=0,
     ){}
