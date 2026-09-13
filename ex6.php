@@ -21,5 +21,4 @@ $ticket3 = new TicketEstacionamento($placa,15,$tarifa,null);
 $ticket3->registrarSaida(135);
 echo $ticket3->resumo().PHP_EOL;
 
-
 ?>
