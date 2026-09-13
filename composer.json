@@ -1,0 +1,9 @@
+{
+    "name": "marca/poo-php-b2",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
