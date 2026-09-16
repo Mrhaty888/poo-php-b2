@@ -16,9 +16,9 @@ echo $fone->status().PHP_EOL;
 $fone->estaCritica();
 #echo $fone->carregar(101).PHP_EOL;
 #echo $fone->carregar(-99).PHP_EOL;
-echo $fone->carregar(50).PHP_EOL;
+echo $fone->carregar(10).PHP_EOL;
 echo $fone->status().PHP_EOL;
-echo $fone->carregar(51).PHP_EOL;
+echo $fone->carregar(99).PHP_EOL;
 echo $fone->status().PHP_EOL;
 
 

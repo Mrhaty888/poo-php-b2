@@ -36,10 +36,11 @@ class BateriaDispositivo{
         if ($percentual < 0 or $percentual > 100){
             throw new InvalidArgumentException('Percentual inválido');
         } else {
+            $cargaanterior = $this->carga;
             $this->carga = $this->carga + $percentual;
             if ($this->carga > 100) {
                 $this->carga = 100;
-                return $this->carga - $percentual;
+                return $this->carga - $cargaanterior;
             }
             return $percentual;
         }
