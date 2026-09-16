@@ -64,7 +64,7 @@ class DroneInspecao{
     public function recarregar(int $percentual): int{
         if ($percentual > 0 and $this->emVoo==false){
             if ($this->bateria==100){
-                echo "Batéria já esta totalmente carregada".PHP_EOL;
+                echo "Batéria já está totalmente carregada".PHP_EOL;
             } else {
                 echo "Recarregando . . .".PHP_EOL;
                 $this->bateria += $percentual;

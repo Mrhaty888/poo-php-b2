@@ -1,0 +1,19 @@
+<?php
+require __DIR__ . "/vendor/autoload.php";
+
+use App\PacoteEntrega;
+
+$pacote1 = new PacoteEntrega("BR123456789X","Rua das Flores, 123");
+$pacote1->sairParaEntrega();
+$pacote1->registrarFalha();
+echo $pacote1->statusAtual().PHP_EOL;
+$pacote1->sairParaEntrega();
+$pacote1->confirmarEntrega();
+echo $pacote1->statusAtual().PHP_EOL;
+$pacote1->sairParaEntrega();
+$pacote1->sairParaEntrega();
+$pacote1->sairParaEntrega();
+$pacote1->sairParaEntrega();
+echo $pacote1->statusAtual().PHP_EOL;
+
+?>
