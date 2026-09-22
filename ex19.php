@@ -1,4 +1,5 @@
 <?php
+//Nome:Marco Antônio Sancho Sant'Ana dos Santos | RA:2205946  | Turma: BCC - B | Disciplina: Programação orientada a objetos.
 require __DIR__ . "/vendor/autoload.php";
 
 use App\RoboCombate;
